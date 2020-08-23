@@ -7,6 +7,12 @@ namespace Assignment5___Dollar_Computers
 
     public partial class DollarComputer : DbContext
     {
+        /*The Author's name: Jiyeon Jeon
+      Author's student number: #301103064
+      Date last Modified: August 20, 2020
+      Program description: Character Builder
+      Revision History: 1.0 created August 20, 2020 Jiyeon 
+      */
         public DollarComputer()
             : base("name=DollarComputerConnection")
         {
