@@ -87,7 +87,7 @@ namespace Assignment5___Dollar_Computers
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Program.aboutBoxForm.Show(); 
+            Program.aboutBoxForm.Show();
         }
     }
 }
