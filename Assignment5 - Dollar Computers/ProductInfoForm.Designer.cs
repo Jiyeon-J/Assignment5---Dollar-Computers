@@ -41,7 +41,7 @@
             this.ProductIDTextBox = new System.Windows.Forms.TextBox();
             this.ConditionTextBox = new System.Windows.Forms.TextBox();
             this.CostTextBox = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.ProductInfoGroupBox = new System.Windows.Forms.GroupBox();
             this.ModelTextBox = new System.Windows.Forms.TextBox();
             this.ManufacturerTextBox = new System.Windows.Forms.TextBox();
             this.OSTextBox = new System.Windows.Forms.TextBox();
@@ -50,7 +50,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.TechspecsGroupBox = new System.Windows.Forms.GroupBox();
             this.WebCamTextBox = new System.Windows.Forms.TextBox();
             this.GPUTypeTextBox = new System.Windows.Forms.TextBox();
             this.HDDTextBox = new System.Windows.Forms.TextBox();
@@ -76,8 +76,8 @@
             this.SaveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.OpenFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.ProductInfoGroupBox.SuspendLayout();
+            this.TechspecsGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -190,22 +190,22 @@
             this.CostTextBox.Size = new System.Drawing.Size(130, 22);
             this.CostTextBox.TabIndex = 6;
             // 
-            // groupBox1
+            // ProductInfoGroupBox
             // 
-            this.groupBox1.Controls.Add(this.ModelTextBox);
-            this.groupBox1.Controls.Add(this.ManufacturerTextBox);
-            this.groupBox1.Controls.Add(this.OSTextBox);
-            this.groupBox1.Controls.Add(this.PlatformTextBox);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(18, 104);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(749, 100);
-            this.groupBox1.TabIndex = 7;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Product Info";
+            this.ProductInfoGroupBox.Controls.Add(this.ModelTextBox);
+            this.ProductInfoGroupBox.Controls.Add(this.ManufacturerTextBox);
+            this.ProductInfoGroupBox.Controls.Add(this.OSTextBox);
+            this.ProductInfoGroupBox.Controls.Add(this.PlatformTextBox);
+            this.ProductInfoGroupBox.Controls.Add(this.label4);
+            this.ProductInfoGroupBox.Controls.Add(this.label3);
+            this.ProductInfoGroupBox.Controls.Add(this.label2);
+            this.ProductInfoGroupBox.Controls.Add(this.label1);
+            this.ProductInfoGroupBox.Location = new System.Drawing.Point(18, 104);
+            this.ProductInfoGroupBox.Name = "ProductInfoGroupBox";
+            this.ProductInfoGroupBox.Size = new System.Drawing.Size(749, 100);
+            this.ProductInfoGroupBox.TabIndex = 7;
+            this.ProductInfoGroupBox.TabStop = false;
+            this.ProductInfoGroupBox.Text = "Product Info";
             // 
             // ModelTextBox
             // 
@@ -271,33 +271,33 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Platform";
             // 
-            // groupBox2
+            // TechspecsGroupBox
             // 
-            this.groupBox2.Controls.Add(this.WebCamTextBox);
-            this.groupBox2.Controls.Add(this.GPUTypeTextBox);
-            this.groupBox2.Controls.Add(this.HDDTextBox);
-            this.groupBox2.Controls.Add(this.CPUspeedTextBox);
-            this.groupBox2.Controls.Add(this.CPUnumberTextBox);
-            this.groupBox2.Controls.Add(this.LCDSizeTextBox);
-            this.groupBox2.Controls.Add(this.CPUTypeTextBox);
-            this.groupBox2.Controls.Add(this.CPUBrandTextBox);
-            this.groupBox2.Controls.Add(this.MemoryTextBox);
-            this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Location = new System.Drawing.Point(18, 224);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(749, 155);
-            this.groupBox2.TabIndex = 8;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            this.TechspecsGroupBox.Controls.Add(this.WebCamTextBox);
+            this.TechspecsGroupBox.Controls.Add(this.GPUTypeTextBox);
+            this.TechspecsGroupBox.Controls.Add(this.HDDTextBox);
+            this.TechspecsGroupBox.Controls.Add(this.CPUspeedTextBox);
+            this.TechspecsGroupBox.Controls.Add(this.CPUnumberTextBox);
+            this.TechspecsGroupBox.Controls.Add(this.LCDSizeTextBox);
+            this.TechspecsGroupBox.Controls.Add(this.CPUTypeTextBox);
+            this.TechspecsGroupBox.Controls.Add(this.CPUBrandTextBox);
+            this.TechspecsGroupBox.Controls.Add(this.MemoryTextBox);
+            this.TechspecsGroupBox.Controls.Add(this.label13);
+            this.TechspecsGroupBox.Controls.Add(this.label12);
+            this.TechspecsGroupBox.Controls.Add(this.label11);
+            this.TechspecsGroupBox.Controls.Add(this.label10);
+            this.TechspecsGroupBox.Controls.Add(this.label9);
+            this.TechspecsGroupBox.Controls.Add(this.label8);
+            this.TechspecsGroupBox.Controls.Add(this.label7);
+            this.TechspecsGroupBox.Controls.Add(this.label6);
+            this.TechspecsGroupBox.Controls.Add(this.label5);
+            this.TechspecsGroupBox.Location = new System.Drawing.Point(18, 224);
+            this.TechspecsGroupBox.Name = "TechspecsGroupBox";
+            this.TechspecsGroupBox.Size = new System.Drawing.Size(749, 155);
+            this.TechspecsGroupBox.TabIndex = 8;
+            this.TechspecsGroupBox.TabStop = false;
+            this.TechspecsGroupBox.Text = "Tech Speces";
+            this.TechspecsGroupBox.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // WebCamTextBox
             // 
@@ -506,8 +506,8 @@
             this.Controls.Add(this.CancelButton1);
             this.Controls.Add(this.SelectAnotherProductButton);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.TechspecsGroupBox);
+            this.Controls.Add(this.ProductInfoGroupBox);
             this.Controls.Add(this.CostTextBox);
             this.Controls.Add(this.ConditionTextBox);
             this.Controls.Add(this.ProductIDTextBox);
@@ -522,10 +522,10 @@
             this.Load += new System.EventHandler(this.ProductInfoForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.ProductInfoGroupBox.ResumeLayout(false);
+            this.ProductInfoGroupBox.PerformLayout();
+            this.TechspecsGroupBox.ResumeLayout(false);
+            this.TechspecsGroupBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -542,7 +542,7 @@
         private System.Windows.Forms.TextBox ProductIDTextBox;
         private System.Windows.Forms.TextBox ConditionTextBox;
         private System.Windows.Forms.TextBox CostTextBox;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox ProductInfoGroupBox;
         private System.Windows.Forms.TextBox ModelTextBox;
         private System.Windows.Forms.TextBox ManufacturerTextBox;
         private System.Windows.Forms.TextBox OSTextBox;
@@ -551,7 +551,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox TechspecsGroupBox;
         private System.Windows.Forms.TextBox WebCamTextBox;
         private System.Windows.Forms.TextBox GPUTypeTextBox;
         private System.Windows.Forms.TextBox HDDTextBox;
